@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "storieService", "storieService\storieService.csproj", "{209FA716-A7AD-4095-BD70-C8710FC66FA7}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8E1FCCF4-1FA7-4C23-86B0-19C78B155AA3} = {8E1FCCF4-1FA7-4C23-86B0-19C78B155AA3}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "storie", "storie\storie.csproj", "{8E1FCCF4-1FA7-4C23-86B0-19C78B155AA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject2", "UnitTestProject2\UnitTestProject2.csproj", "{8D556A24-85E0-49F1-885A-B385165B4079}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{209FA716-A7AD-4095-BD70-C8710FC66FA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{209FA716-A7AD-4095-BD70-C8710FC66FA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{209FA716-A7AD-4095-BD70-C8710FC66FA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{209FA716-A7AD-4095-BD70-C8710FC66FA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E1FCCF4-1FA7-4C23-86B0-19C78B155AA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E1FCCF4-1FA7-4C23-86B0-19C78B155AA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E1FCCF4-1FA7-4C23-86B0-19C78B155AA3}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{8E1FCCF4-1FA7-4C23-86B0-19C78B155AA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E1FCCF4-1FA7-4C23-86B0-19C78B155AA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E1FCCF4-1FA7-4C23-86B0-19C78B155AA3}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{8D556A24-85E0-49F1-885A-B385165B4079}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D556A24-85E0-49F1-885A-B385165B4079}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D556A24-85E0-49F1-885A-B385165B4079}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D556A24-85E0-49F1-885A-B385165B4079}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = storie\storie.csproj
+	EndGlobalSection
+EndGlobal
