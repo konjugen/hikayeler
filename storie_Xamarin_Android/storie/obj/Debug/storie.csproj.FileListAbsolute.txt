@@ -44,6 +44,5 @@ d:\Users\anil.gurbuz\Desktop\storie_Xamarin_Android\storie\obj\Debug\res\values-
 d:\Users\anil.gurbuz\Desktop\storie_Xamarin_Android\storie\obj\Debug\res\values-v14\styles.xml
 d:\Users\anil.gurbuz\Desktop\storie_Xamarin_Android\storie\obj\Debug\R.cs.flag
 d:\Users\anil.gurbuz\Desktop\storie_Xamarin_Android\storie\obj\Debug\uploadflags.txt
-d:\Users\anil.gurbuz\Desktop\storie_Xamarin_Android\storie\obj\Debug\storie.csprojResolveAssemblyReference.cache
 d:\Users\anil.gurbuz\Desktop\storie_Xamarin_Android\storie\obj\Debug\storie.dll.mdb
 d:\Users\anil.gurbuz\Desktop\storie_Xamarin_Android\storie\bin\Debug\storie.dll.mdb

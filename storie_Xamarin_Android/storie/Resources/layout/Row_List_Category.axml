@@ -20,7 +20,8 @@
             android:layout_width="match_parent"
             android:layout_height="100dp"
             android:textSize="20sp"
-            android:id="@+id/categoryText" />
+            android:id="@+id/categoryText"
+            android:gravity="center" />
     </LinearLayout>
 <!--<Button
         android:text="@string/checkbox_text"

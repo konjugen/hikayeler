@@ -17,29 +17,34 @@ namespace storieService.Controllers
             DomainManager = new EntityDomainManager<Category>(context, Request, Services);
         }
 
-        public List<CategoryDto> GetCategories()
+        //public List<CategoryDto> GetCategories()
+        //{
+        //    IQueryable<Category> categoryQueryable = Query();
+
+
+        //    var list = categoryQueryable.ToList();
+
+        //    var categories = categoryQueryable.Where(p => string.IsNullOrEmpty(p.FKMainCategoryId)).Select(p => new CategoryDto
+        //    {
+        //        Id = p.Id,
+        //        CategoryName = p.CategoryName
+        //    }).ToList();
+
+        //    foreach(var item in categories)
+        //    {
+        //        var subCategories = categoryQueryable.Where(p => p.FKMainCategoryId == item.Id).Select(p=> new CategoryDto()
+        //        {
+        //            Id = p.FKMainCategoryId,
+        //            CategoryName = p.CategoryName
+        //        }).ToList();
+        //        item.subCategories.AddRange(subCategories);
+        // }
+        //    return categories;
+        //}
+
+        public IQueryable<Category> GetAllCategoryItems()
         {
-            IQueryable<Category> categoryQueryable = Query();
-
-
-            var list = categoryQueryable.ToList();
-
-            var categories = categoryQueryable.Where(p => string.IsNullOrEmpty(p.FKMainCategoryId)).Select(p => new CategoryDto
-            {
-                Id = p.Id,
-                CategoryName = p.CategoryName
-            }).ToList();
-
-            foreach(var item in categories)
-            {
-                var subCategories = categoryQueryable.Where(p => p.FKMainCategoryId == item.Id).Select(p=> new CategoryDto()
-                {
-                    Id = p.FKMainCategoryId,
-                    CategoryName = p.CategoryName
-                }).ToList();
-                item.subCategories.AddRange(subCategories);
-         }
-            return categories;
+            return Query();
         }
 
     }

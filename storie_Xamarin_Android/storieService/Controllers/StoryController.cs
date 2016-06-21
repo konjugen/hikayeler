@@ -16,20 +16,26 @@ namespace storieService.Controllers
             storieContext context = new storieContext();
             DomainManager = new EntityDomainManager<Story>(context, Request, Services);
         }
-    
-        public List<StoryDto> GetStoriesByCategoryId(string categoryId)
-        {
-            IQueryable<Story> categoryQueryable = Query();
 
-            var stories = categoryQueryable.Where(p => p.FkMainCategoryId == categoryId).Select(p =>
-                 new StoryDto()
-                 {
-                     Id = p.Id,
-                     Content = p.Content,
-                     Title = p.Title
-                 }
-                ).ToList();
-            return stories;
+        //public List<StoryDto> GetStoriesByCategoryId()
+        //{
+        //    IQueryable<Story> categoryQueryable = Query();
+
+        //    var stories = categoryQueryable.Where(p => p.FkMainCategoryId == p.Id).Select(p =>
+        //         new StoryDto()
+        //         {
+        //             Id = p.Id,
+        //             Content = p.Content,
+        //             Title = p.Title,
+        //             FkMainCategoryId = p.FkMainCategoryId
+        //         }
+        //        ).ToList();
+        //    return stories;
+        //}
+
+        public IQueryable<Story> GetAllStoryItems()
+        {
+            return Query();
         }
     }
 }

@@ -11,6 +11,7 @@ using Microsoft.WindowsAzure.MobileServices;
 // using Microsoft.WindowsAzure.MobileServices;
 using System.Collections.Generic;
 using storie;
+using Android.Content;
 
 namespace XamarinTodoQuickStart
 {
@@ -29,7 +30,7 @@ namespace XamarinTodoQuickStart
 
         private CategoryItemAdapter adapter; // Adapter to sync the items list with the view
         private ListView listViewCategory;
-        public Button button;
+
         //private EditText textNewTodo; // EditText containing the "New Todo" text
         //private ProgressBar progressBar; // Progress spinner to use for table operations
 
@@ -98,29 +99,10 @@ namespace XamarinTodoQuickStart
 
         public void OnItemClick(AdapterView parent, View view, int position, long id)
         {
-            switch (id)
-            {
-                case 0:
-                    SetContentView(Resource.Layout.Activity_Stories);
-                    break;
-                case 1:
-                    SetContentView(Resource.Layout.Activity_Stories);
-                    break;
-                case 2:
-                    SetContentView(Resource.Layout.Activity_Stories);
-                    break;
-                case 3:
-                    SetContentView(Resource.Layout.Activity_Stories);
-                    break;
-                case 4:
-                    SetContentView(Resource.Layout.Activity_Stories);
-                    break;
-                case 5:
-                    SetContentView(Resource.Layout.Activity_Stories);
-                    break;
-                default: break;
-            }
 
+            var intent = new Intent(this, typeof(StoryActivity));
+            intent.PutExtra("selectedItemId", Convert.ToInt32(id));
+            StartActivity(intent);
         }
 
         // Initializes the activity menu
@@ -150,11 +132,10 @@ namespace XamarinTodoQuickStart
         async Task RefreshItemsFromTableAsync()
         {
             // TODO:: Uncomment the following code when using a mobile service
-
             try
             {
                 // Get the items that weren't marked as completed and add them in the adapter
-                categoryItemList = await categoryTable.Where(item => item.FkMainCategoryId == null).ToListAsync();
+                categoryItemList = await categoryTable.Where(item => item.FkMainCategoryId != null).ToListAsync();
 
                 adapter.Clear();
 
