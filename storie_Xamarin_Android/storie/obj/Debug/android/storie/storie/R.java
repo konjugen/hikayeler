@@ -2605,7 +2605,6 @@ containing a value of this type.
         public static final int design_menu_item_text=0x7f070074;
         public static final int design_navigation_view=0x7f070073;
         public static final int disableHome=0x7f07000e;
-        public static final int editText1=0x7f070069;
         public static final int edit_query=0x7f07005c;
         public static final int end=0x7f07001c;
         public static final int end_padder=0x7f07009c;
@@ -2711,6 +2710,7 @@ containing a value of this type.
         public static final int text=0x7f07009a;
         public static final int text2=0x7f070098;
         public static final int textSpacerNoButtons=0x7f07004d;
+        public static final int textView1=0x7f070069;
         public static final int textViewTitle=0x7f07006c;
         public static final int time=0x7f070096;
         public static final int title=0x7f070043;

@@ -131,6 +131,6 @@ d:\Users\anil.gurbuz\Desktop\storie_Xamarin_Android\storieService\bin\ko\System.
 d:\Users\anil.gurbuz\Desktop\storie_Xamarin_Android\storieService\bin\ru\System.Spatial.resources.dll
 d:\Users\anil.gurbuz\Desktop\storie_Xamarin_Android\storieService\bin\zh-Hans\System.Spatial.resources.dll
 d:\Users\anil.gurbuz\Desktop\storie_Xamarin_Android\storieService\bin\zh-Hant\System.Spatial.resources.dll
+d:\Users\anil.gurbuz\Desktop\storie_Xamarin_Android\storieService\obj\Debug\storieService.csprojResolveAssemblyReference.cache
 d:\Users\anil.gurbuz\Desktop\storie_Xamarin_Android\storieService\obj\Debug\storieService.dll
 d:\Users\anil.gurbuz\Desktop\storie_Xamarin_Android\storieService\obj\Debug\storieService.pdb
-d:\Users\anil.gurbuz\Desktop\storie_Xamarin_Android\storieService\obj\Debug\storieService.csprojResolveAssemblyReference.cache

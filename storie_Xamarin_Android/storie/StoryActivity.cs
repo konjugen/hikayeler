@@ -91,8 +91,7 @@ namespace storie
 
             foreach (var current in storieItemList)
             {
-                list.Add(current.Content);
-                bundle.PutStringArrayList("selectedStorie", list);               
+                bundle.PutString("selectedStorie", current.Content);               
             }
             intent.PutExtras(bundle);
 

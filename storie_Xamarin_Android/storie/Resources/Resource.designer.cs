@@ -2344,9 +2344,6 @@ namespace storie
 			// aapt resource value: 0x7f07000e
 			public const int disableHome = 2131165198;
 			
-			// aapt resource value: 0x7f070069
-			public const int editText1 = 2131165289;
-			
 			// aapt resource value: 0x7f07005c
 			public const int edit_query = 2131165276;
 			
@@ -2661,6 +2658,9 @@ namespace storie
 			
 			// aapt resource value: 0x7f07004d
 			public const int textSpacerNoButtons = 2131165261;
+			
+			// aapt resource value: 0x7f070069
+			public const int textView1 = 2131165289;
 			
 			// aapt resource value: 0x7f07006c
 			public const int textViewTitle = 2131165292;

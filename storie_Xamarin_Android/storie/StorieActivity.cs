@@ -16,16 +16,21 @@ namespace storie
     public class StorieActivity : Activity
     {
         public int selectedItem;
-        public IList<string> selectedItemContent;
+        public string selectedItemContent;
+        public TextView asd;
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
 
-            selectedItem = Intent.Extras.GetInt("selectedItemId");
-            selectedItem = selectedItem + 1;
-            selectedItemContent = Intent.Extras.GetStringArrayList("selectedStorie");
+            selectedItemContent = Intent.Extras.GetString("selectedStorie");           
 
             SetContentView(Resource.Layout.Activity_Storie);
+
+            var asd = FindViewById<TextView>(Resource.Id.textView1);
+
+            asd.Text = selectedItemContent;
+
+
         }
     }
 }
