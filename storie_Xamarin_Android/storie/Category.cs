@@ -21,7 +21,7 @@ namespace storie
         public string CategoryName { get; set; }
 
         [JsonProperty(PropertyName = "fkMainCategoryId")]
-        public string FkMainCategoryId{ get; set; }
+        public string FKMainCategoryId{ get; set; }
     }
 
     public class CategoryItemWrapper : Java.Lang.Object

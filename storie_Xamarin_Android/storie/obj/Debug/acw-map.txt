@@ -10,6 +10,10 @@ storie.CategoryItemWrapper, storie;md5304e69416e624e1b520a2afb6e997d17.CategoryI
 storie.CategoryItemWrapper, storie, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5304e69416e624e1b520a2afb6e997d17.CategoryItemWrapper
 storie.CategoryItemWrapper;md5304e69416e624e1b520a2afb6e997d17.CategoryItemWrapper
 storie.CategoryItemWrapper;md5304e69416e624e1b520a2afb6e997d17.CategoryItemWrapper
+storie.StorieActivity, storie;md5304e69416e624e1b520a2afb6e997d17.StorieActivity
+storie.StorieActivity, storie, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5304e69416e624e1b520a2afb6e997d17.StorieActivity
+storie.StorieActivity;md5304e69416e624e1b520a2afb6e997d17.StorieActivity
+storie.StorieActivity;md5304e69416e624e1b520a2afb6e997d17.StorieActivity
 storie.Story/StorieItemWrapper, storie;md5304e69416e624e1b520a2afb6e997d17.Story_StorieItemWrapper
 storie.Story+StorieItemWrapper, storie, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5304e69416e624e1b520a2afb6e997d17.Story_StorieItemWrapper
 storie.Story.StorieItemWrapper;md5304e69416e624e1b520a2afb6e997d17.Story_StorieItemWrapper

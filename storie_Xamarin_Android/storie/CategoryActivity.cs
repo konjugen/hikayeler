@@ -99,7 +99,6 @@ namespace XamarinTodoQuickStart
 
         public void OnItemClick(AdapterView parent, View view, int position, long id)
         {
-
             var intent = new Intent(this, typeof(StoryActivity));
             intent.PutExtra("selectedItemId", Convert.ToInt32(id));
             StartActivity(intent);
@@ -135,7 +134,7 @@ namespace XamarinTodoQuickStart
             try
             {
                 // Get the items that weren't marked as completed and add them in the adapter
-                categoryItemList = await categoryTable.Where(item => item.FkMainCategoryId != null).ToListAsync();
+                categoryItemList = await categoryTable.Where(item => item.FKMainCategoryId != null).ToListAsync();
 
                 adapter.Clear();
 

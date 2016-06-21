@@ -9,6 +9,7 @@ using Microsoft.WindowsAzure.MobileServices;
 using System.Collections.Generic;
 using storie;
 using XamarinTodoQuickStart;
+using Android.Content;
 
 namespace storie
 {
@@ -21,7 +22,7 @@ namespace storie
         public int selectedItem;
 
         private StoryItemAdapter adapter;
-        private ListView listViewStorie, asd;
+        private ListView listViewStory;
 
         protected override async void OnCreate(Bundle bundle)
         {
@@ -30,14 +31,14 @@ namespace storie
             selectedItem = Intent.Extras.GetInt("selectedItemId");
             selectedItem = selectedItem + 1;
 
-            SetContentView(Resource.Layout.Activity_Stories);
+            SetContentView(Resource.Layout.Activity_Story);
 
-            adapter = new StoryItemAdapter(this, Resource.Layout.Row_List_Storie);
+            adapter = new StoryItemAdapter(this, Resource.Layout.Row_List_Story);
 
-            listViewStorie = FindViewById<ListView>(Resource.Id.listViewStorie);
-            listViewStorie.OnItemClickListener = this;
+            listViewStory = FindViewById<ListView>(Resource.Id.listViewStory);
+            listViewStory.OnItemClickListener = this;
 
-            listViewStorie.Adapter = adapter;
+            listViewStory.Adapter = adapter;
 
             CurrentPlatform.Init();
 
@@ -55,7 +56,7 @@ namespace storie
             try
             {
                 // Get the items that weren't marked as completed and add them in the adapter
-                storieItemList = await storieTable.Where(item => item.Id == selectedItem.ToString()).ToListAsync();
+                storieItemList = await storieTable.Where(item => item.FkMainCategoryId == selectedItem.ToString()).ToListAsync();
 
                 adapter.Clear();
 
@@ -84,7 +85,18 @@ namespace storie
 
         public void OnItemClick(AdapterView parent, View view, int position, long id)
         {
-            throw new NotImplementedException();
+            var bundle = new Bundle();
+            var list = new List<string>();
+            var intent = new Intent(this, typeof(StorieActivity));
+
+            foreach (var current in storieItemList)
+            {
+                list.Add(current.Content);
+                bundle.PutStringArrayList("selectedStorie", list);               
+            }
+            intent.PutExtras(bundle);
+
+            StartActivity(intent);
         }
     }
 }

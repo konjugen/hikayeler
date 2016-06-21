@@ -28,9 +28,10 @@ d:\Users\anil.gurbuz\Desktop\storie_Xamarin_Android\storie\obj\Debug\storie.dll
 d:\Users\anil.gurbuz\Desktop\storie_Xamarin_Android\storie\obj\Debug\storie.pdb
 d:\Users\anil.gurbuz\Desktop\storie_Xamarin_Android\storie\obj\Debug\android\bin\storie.storie.apk
 d:\Users\anil.gurbuz\Desktop\storie_Xamarin_Android\storie\obj\Debug\res\layout\row_list_category.xml
-d:\Users\anil.gurbuz\Desktop\storie_Xamarin_Android\storie\obj\Debug\res\layout\activity_stories.xml
-d:\Users\anil.gurbuz\Desktop\storie_Xamarin_Android\storie\obj\Debug\res\layout\row_list_storie.xml
+d:\Users\anil.gurbuz\Desktop\storie_Xamarin_Android\storie\obj\Debug\res\layout\activity_story.xml
+d:\Users\anil.gurbuz\Desktop\storie_Xamarin_Android\storie\obj\Debug\res\layout\row_list_story.xml
 d:\Users\anil.gurbuz\Desktop\storie_Xamarin_Android\storie\obj\Debug\res\layout\progressbar_page.xml
+d:\Users\anil.gurbuz\Desktop\storie_Xamarin_Android\storie\obj\Debug\res\layout\activity_storie.xml
 d:\Users\anil.gurbuz\Desktop\storie_Xamarin_Android\storie\obj\Debug\res\values\strings.xml
 d:\Users\anil.gurbuz\Desktop\storie_Xamarin_Android\storie\obj\Debug\res\layout\activity_to_do.xml
 d:\Users\anil.gurbuz\Desktop\storie_Xamarin_Android\storie\obj\Debug\res\layout\row_list_to_do.xml
