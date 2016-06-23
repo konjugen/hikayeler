@@ -23,6 +23,7 @@ namespace storie
 
         private StoryItemAdapter adapter;
         private ListView listViewStory;
+        private EditText addStorieText;
 
         protected override async void OnCreate(Bundle bundle)
         {
@@ -86,16 +87,57 @@ namespace storie
         public void OnItemClick(AdapterView parent, View view, int position, long id)
         {
             var bundle = new Bundle();
-            var list = new List<string>();
+            var contentList = new List<string>();
+            var titleList = new List<string>();
             var intent = new Intent(this, typeof(StorieActivity));
 
             foreach (var current in storieItemList)
             {
-                bundle.PutString("selectedStorie", current.Content);               
+                contentList.Add(current.Content);
+                titleList.Add(current.Title);
+                bundle.PutStringArrayList("selectedStorieContent", contentList);
+                bundle.PutStringArrayList("selectedStorieTitle", titleList);
             }
+
+            intent.PutExtra("selectedStorieId", Convert.ToInt32(id));
             intent.PutExtras(bundle);
 
             StartActivity(intent);
         }
+
+        //[Java.Interop.Export()]
+        //public async void AddItem(View view)
+        //{
+        //    if (client == null || string.IsNullOrWhiteSpace(addStorieText.Text))
+        //    {
+        //        return;
+        //    }
+
+        //    // Create a new item
+        //    var item = new Story
+        //    {
+        //        Id = "",
+        //        Title = "",
+        //        Content = addStorieText.Text,
+        //        FkMainCategoryId = ""               
+        //    };
+
+        //    try
+        //    {
+        //        await storieTable.InsertAsync(item); // insert the new item into the local database
+        //        //await SyncAsync(); // send changes to the mobile service
+
+        //        //if (!item.Complete)
+        //        //{
+        //        //    adapter.Add(item);
+        //        //}
+        //    }
+        //    catch (Exception e)
+        //    {
+        //        CreateAndShowDialog(e, "Error");
+        //    }
+
+        //    addStorieText.Text = "";
+        //}
     }
 }

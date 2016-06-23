@@ -3,11 +3,27 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:minWidth="25px"
-    android:minHeight="25px">
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="10dp">
     <TextView
-        android:text="Text"
+        android:text="@string/checkbox_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textView1" />
+        android:id="@+id/storieTitleText"
+        android:gravity="center" />
+    <TextView
+        android:text="@string/checkbox_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/storieText"
+        android:scrollbars="vertical"
+        android:textIsSelectable="true" />
+<!--slide animasyon
+        android:singleLine="true" 
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit ="marquee_forever"
+        android:focusable="true"
+        android:focusableInTouchMode="true" 
+        android:scrollHorizontally="true"-->
 </LinearLayout>
