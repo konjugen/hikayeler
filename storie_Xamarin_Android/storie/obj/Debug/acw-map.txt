@@ -10,6 +10,14 @@ storie.CategoryItemWrapper, storie;md5304e69416e624e1b520a2afb6e997d17.CategoryI
 storie.CategoryItemWrapper, storie, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5304e69416e624e1b520a2afb6e997d17.CategoryItemWrapper
 storie.CategoryItemWrapper;md5304e69416e624e1b520a2afb6e997d17.CategoryItemWrapper
 storie.CategoryItemWrapper;md5304e69416e624e1b520a2afb6e997d17.CategoryItemWrapper
+storie.CategoryAdapter, storie;md5304e69416e624e1b520a2afb6e997d17.CategoryAdapter
+storie.CategoryAdapter, storie, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5304e69416e624e1b520a2afb6e997d17.CategoryAdapter
+storie.CategoryAdapter;md5304e69416e624e1b520a2afb6e997d17.CategoryAdapter
+storie.CategoryAdapter;md5304e69416e624e1b520a2afb6e997d17.CategoryAdapter
+storie.CategoryViewHolder, storie;md5304e69416e624e1b520a2afb6e997d17.CategoryViewHolder
+storie.CategoryViewHolder, storie, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5304e69416e624e1b520a2afb6e997d17.CategoryViewHolder
+storie.CategoryViewHolder;md5304e69416e624e1b520a2afb6e997d17.CategoryViewHolder
+storie.CategoryViewHolder;md5304e69416e624e1b520a2afb6e997d17.CategoryViewHolder
 storie.StorieActivity, storie;md5304e69416e624e1b520a2afb6e997d17.StorieActivity
 storie.StorieActivity, storie, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5304e69416e624e1b520a2afb6e997d17.StorieActivity
 storie.StorieActivity;md5304e69416e624e1b520a2afb6e997d17.StorieActivity

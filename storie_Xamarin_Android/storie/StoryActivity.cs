@@ -19,7 +19,7 @@ namespace storie
         private MobileServiceClient client;
         private IMobileServiceTable<Story> storieTable;
         public List<Story> storieItemList = new List<Story>();
-        public int selectedItem;
+        public string selectedItem;
 
         private StoryItemAdapter adapter;
         private ListView listViewStory;
@@ -29,9 +29,8 @@ namespace storie
         {
             base.OnCreate(bundle);
 
-            selectedItem = Intent.Extras.GetInt("selectedItemId");
-            selectedItem = selectedItem + 1;
-
+            selectedItem = Intent.Extras.GetString("id");
+           
             SetContentView(Resource.Layout.Activity_Story);
 
             adapter = new StoryItemAdapter(this, Resource.Layout.Row_List_Story);

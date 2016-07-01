@@ -12,6 +12,7 @@ using Microsoft.WindowsAzure.MobileServices;
 using System.Collections.Generic;
 using storie;
 using Android.Content;
+using Android.Support.V7.Widget;
 
 namespace XamarinTodoQuickStart
 {
@@ -28,11 +29,12 @@ namespace XamarinTodoQuickStart
         // TODO:: Comment out this line to remove the in-memory list
         public List<Category> categoryItemList = new List<Category>();
 
-        private CategoryItemAdapter adapter; // Adapter to sync the items list with the view
-        private ListView listViewCategory;
+        private CategoryAdapter adapter;
+        // Adapter to sync the items list with the view
+        private RecyclerView listViewCategory;
 
         //private EditText textNewTodo; // EditText containing the "New Todo" text
-        //private ProgressBar progressBar; // Progress spinner to use for table operations
+        //private ProgressBar progressBar; // Progress spinner to use for table operations  
 
         // Called when the activity initially gets created
         protected override async void OnCreate(Bundle bundle)
@@ -42,13 +44,22 @@ namespace XamarinTodoQuickStart
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.Activity_To_Do);
 
-            adapter = new CategoryItemAdapter(this, Resource.Layout.Row_List_Category);
+            //adapter = new CategoryItemAdapter(this, Resource.Layout.Row_List_Category);
 
-            listViewCategory = FindViewById<ListView>(Resource.Id.listViewCategory);
-            listViewCategory.OnItemClickListener = this;
+            //listViewCategory = FindViewById<ListView>(Resource.Id.listViewCategory);
+            //listViewCategory.OnItemClickListener = this;
 
-            listViewCategory.Adapter = adapter;
+            //listViewCategory.Adapter = adapter;
 
+            adapter = new CategoryAdapter(this, FindViewById<RecyclerView>(Resource.Id.listViewCategory));
+
+            listViewCategory = (RecyclerView)FindViewById(Resource.Id.listViewCategory);
+           
+            listViewCategory.SetLayoutManager(new LinearLayoutManager(this));
+
+            
+
+            listViewCategory.SetAdapter(adapter);
 
 
             // Initialize the progress bar
@@ -135,7 +146,6 @@ namespace XamarinTodoQuickStart
             {
                 // Get the items that weren't marked as completed and add them in the adapter
                 categoryItemList = await categoryTable.Where(item => item.FKMainCategoryId != null).ToListAsync();
-
                 adapter.Clear();
 
                 foreach (Category current in categoryItemList)
@@ -167,8 +177,8 @@ namespace XamarinTodoQuickStart
             try
             {
                 await categoryTable.UpdateAsync(item);
-                if (item.CategoryName == null)
-                    adapter.Remove(item);
+                if (item.CategoryName == null) ;
+                    //adapter.Remove(item);
             }
             catch (Exception e)
             {
@@ -178,8 +188,8 @@ namespace XamarinTodoQuickStart
 
             // TODO:: Comment out these lines to remove the in-memory list
             categoryItemList.Add(item);
-            if (item.CategoryName == null)
-                adapter.Remove(item);
+            if (item.CategoryName == null) ;
+                //adapter.Remove(item);
             // NOTE:: End of lines to comment out
         }
 
@@ -200,8 +210,8 @@ namespace XamarinTodoQuickStart
                 // Insert the new item
                 await categoryTable.InsertAsync(item);
 
-                if (item.CategoryName == null)
-                    adapter.Add(item);
+                if (item.CategoryName == null) ;
+                    //adapter.Add(item);
             }
             catch (Exception e)
             {
@@ -211,7 +221,7 @@ namespace XamarinTodoQuickStart
 
             // TODO:: Comment out these lines to remove the in-memory list
             categoryItemList.Add(item);
-            adapter.Add(item);
+            //adapter.Add(item);
             // NOTE:: End of lines to comment out
 
             //textNewTodo.Text = "";

@@ -7,7 +7,8 @@ public class StoryActivity
 		mono.android.IGCUserPeer,
 		android.widget.AdapterView.OnItemClickListener
 {
-	static final String __md_methods;
+/** @hide */
+	public static final String __md_methods;
 	static {
 		__md_methods = 
 			"n_onCreate:(Landroid/os/Bundle;)V:GetOnCreate_Landroid_os_Bundle_Handler\n" +
@@ -40,7 +41,7 @@ public class StoryActivity
 
 	private native void n_onItemClick (android.widget.AdapterView p0, android.view.View p1, int p2, long p3);
 
-	java.util.ArrayList refList;
+	private java.util.ArrayList refList;
 	public void monodroidAddReference (java.lang.Object obj)
 	{
 		if (refList == null)

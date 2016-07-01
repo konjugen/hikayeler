@@ -28,6 +28,7 @@ namespace XamarinTodoQuickStart
         // Returns the view for a specific item on the list
         public override View GetView(int position, Android.Views.View convertView, Android.Views.ViewGroup parent)
         {
+   
             var row = convertView;
             var currentItem = this[position];
             //CheckBox checkBox;
@@ -62,11 +63,11 @@ namespace XamarinTodoQuickStart
             text.Enabled = true;
             text.Tag = new CategoryItemWrapper(currentItem);
 
-            //button.Text = currentItem.CategoryName;
-            //button.Enabled = true;
-            //button.Tag = new CategoryItemWrapper(currentItem);
+                //button.Text = currentItem.CategoryName;
+                //button.Enabled = true;
+                //button.Tag = new CategoryItemWrapper(currentItem);
 
-            return row;
+            return layout;
         }
         public void Add(Category item)
         {
