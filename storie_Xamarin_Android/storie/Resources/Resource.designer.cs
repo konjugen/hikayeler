@@ -2209,8 +2209,8 @@ namespace storie
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f07006c
-			public const int LinearLayout1 = 2131165292;
+			// aapt resource value: 0x7f070069
+			public const int LinearLayout1 = 2131165289;
 			
 			// aapt resource value: 0x7f070091
 			public const int action0 = 2131165329;
@@ -2416,11 +2416,11 @@ namespace storie
 			// aapt resource value: 0x7f07000b
 			public const int listMode = 2131165195;
 			
-			// aapt resource value: 0x7f07006e
-			public const int listViewCategory = 2131165294;
-			
 			// aapt resource value: 0x7f07006b
-			public const int listViewStory = 2131165291;
+			public const int listViewCategory = 2131165291;
+			
+			// aapt resource value: 0x7f07006e
+			public const int listViewStory = 2131165294;
 			
 			// aapt resource value: 0x7f070041
 			public const int list_item = 2131165249;
@@ -2641,11 +2641,11 @@ namespace storie
 			// aapt resource value: 0x7f0700a1
 			public const int storieLayout = 2131165345;
 			
-			// aapt resource value: 0x7f07006a
-			public const int storieText = 2131165290;
+			// aapt resource value: 0x7f07006d
+			public const int storieText = 2131165293;
 			
-			// aapt resource value: 0x7f070069
-			public const int storieTitleText = 2131165289;
+			// aapt resource value: 0x7f07006c
+			public const int storieTitleText = 2131165292;
 			
 			// aapt resource value: 0x7f070065
 			public const int submit_area = 2131165285;
@@ -2662,8 +2662,8 @@ namespace storie
 			// aapt resource value: 0x7f07004d
 			public const int textSpacerNoButtons = 2131165261;
 			
-			// aapt resource value: 0x7f07006d
-			public const int textViewTitle = 2131165293;
+			// aapt resource value: 0x7f07006a
+			public const int textViewTitle = 2131165290;
 			
 			// aapt resource value: 0x7f070097
 			public const int time = 2131165335;
@@ -2852,13 +2852,13 @@ namespace storie
 			public const int abc_select_dialog_material = 2130903064;
 			
 			// aapt resource value: 0x7f030019
-			public const int Activity_Storie = 2130903065;
+			public const int Activity_Category = 2130903065;
 			
 			// aapt resource value: 0x7f03001a
-			public const int Activity_Story = 2130903066;
+			public const int Activity_Content = 2130903066;
 			
 			// aapt resource value: 0x7f03001b
-			public const int Activity_To_Do = 2130903067;
+			public const int Activity_Story = 2130903067;
 			
 			// aapt resource value: 0x7f03001c
 			public const int design_bottom_sheet_dialog = 2130903068;

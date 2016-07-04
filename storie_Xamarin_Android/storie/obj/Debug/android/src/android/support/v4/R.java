@@ -2560,7 +2560,7 @@ containing a value of this type.
         public static int notification_template_icon_bg=0x7f0200a0;
     }
     public static final class id {
-        public static int LinearLayout1=0x7f07006c;
+        public static int LinearLayout1=0x7f070069;
         public static int action0=0x7f070091;
         public static int action_bar=0x7f07005a;
         public static int action_bar_activity_content=0x7f070001;
@@ -2629,8 +2629,8 @@ containing a value of this type.
         public static int line3=0x7f07009a;
         public static int linearLayout1=0x7f07009e;
         public static int listMode=0x7f07000b;
-        public static int listViewCategory=0x7f07006e;
-        public static int listViewStory=0x7f07006b;
+        public static int listViewCategory=0x7f07006b;
+        public static int listViewStory=0x7f07006e;
         public static int list_item=0x7f070041;
         public static int media_actions=0x7f070094;
         public static int menu_refresh=0x7f0700a3;
@@ -2704,14 +2704,14 @@ containing a value of this type.
         public static int start=0x7f070031;
         public static int status_bar_latest_event_content=0x7f070093;
         public static int storieLayout=0x7f0700a1;
-        public static int storieText=0x7f07006a;
-        public static int storieTitleText=0x7f070069;
+        public static int storieText=0x7f07006d;
+        public static int storieTitleText=0x7f07006c;
         public static int submit_area=0x7f070065;
         public static int tabMode=0x7f07000d;
         public static int text=0x7f07009b;
         public static int text2=0x7f070099;
         public static int textSpacerNoButtons=0x7f07004d;
-        public static int textViewTitle=0x7f07006d;
+        public static int textViewTitle=0x7f07006a;
         public static int time=0x7f070097;
         public static int title=0x7f070043;
         public static int title_template=0x7f070048;
@@ -2767,9 +2767,9 @@ containing a value of this type.
         public static int abc_search_dropdown_item_icons_2line=0x7f030016;
         public static int abc_search_view=0x7f030017;
         public static int abc_select_dialog_material=0x7f030018;
-        public static int activity_storie=0x7f030019;
-        public static int activity_story=0x7f03001a;
-        public static int activity_to_do=0x7f03001b;
+        public static int activity_category=0x7f030019;
+        public static int activity_content=0x7f03001a;
+        public static int activity_story=0x7f03001b;
         public static int design_bottom_sheet_dialog=0x7f03001c;
         public static int design_layout_snackbar=0x7f03001d;
         public static int design_layout_snackbar_include=0x7f03001e;

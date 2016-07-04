@@ -6,6 +6,10 @@ XamarinTodoQuickStart.CategoryItemAdapter, storie;md54bfefba2fe74293f997d382b2c9
 XamarinTodoQuickStart.CategoryItemAdapter, storie, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md54bfefba2fe74293f997d382b2c9adb6a.CategoryItemAdapter
 XamarinTodoQuickStart.CategoryItemAdapter;md54bfefba2fe74293f997d382b2c9adb6a.CategoryItemAdapter
 xamarintodoquickstart.CategoryItemAdapter;md54bfefba2fe74293f997d382b2c9adb6a.CategoryItemAdapter
+storie.StoryAdapter, storie;md5304e69416e624e1b520a2afb6e997d17.StoryAdapter
+storie.StoryAdapter, storie, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5304e69416e624e1b520a2afb6e997d17.StoryAdapter
+storie.StoryAdapter;md5304e69416e624e1b520a2afb6e997d17.StoryAdapter
+storie.StoryAdapter;md5304e69416e624e1b520a2afb6e997d17.StoryAdapter
 storie.CategoryItemWrapper, storie;md5304e69416e624e1b520a2afb6e997d17.CategoryItemWrapper
 storie.CategoryItemWrapper, storie, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5304e69416e624e1b520a2afb6e997d17.CategoryItemWrapper
 storie.CategoryItemWrapper;md5304e69416e624e1b520a2afb6e997d17.CategoryItemWrapper
@@ -18,10 +22,10 @@ storie.CategoryViewHolder, storie;md5304e69416e624e1b520a2afb6e997d17.CategoryVi
 storie.CategoryViewHolder, storie, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5304e69416e624e1b520a2afb6e997d17.CategoryViewHolder
 storie.CategoryViewHolder;md5304e69416e624e1b520a2afb6e997d17.CategoryViewHolder
 storie.CategoryViewHolder;md5304e69416e624e1b520a2afb6e997d17.CategoryViewHolder
-storie.StorieActivity, storie;md5304e69416e624e1b520a2afb6e997d17.StorieActivity
-storie.StorieActivity, storie, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5304e69416e624e1b520a2afb6e997d17.StorieActivity
-storie.StorieActivity;md5304e69416e624e1b520a2afb6e997d17.StorieActivity
-storie.StorieActivity;md5304e69416e624e1b520a2afb6e997d17.StorieActivity
+storie.ContentActivity, storie;md5304e69416e624e1b520a2afb6e997d17.ContentActivity
+storie.ContentActivity, storie, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5304e69416e624e1b520a2afb6e997d17.ContentActivity
+storie.ContentActivity;md5304e69416e624e1b520a2afb6e997d17.ContentActivity
+storie.ContentActivity;md5304e69416e624e1b520a2afb6e997d17.ContentActivity
 storie.Story/StorieItemWrapper, storie;md5304e69416e624e1b520a2afb6e997d17.Story_StorieItemWrapper
 storie.Story+StorieItemWrapper, storie, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5304e69416e624e1b520a2afb6e997d17.Story_StorieItemWrapper
 storie.Story.StorieItemWrapper;md5304e69416e624e1b520a2afb6e997d17.Story_StorieItemWrapper
@@ -38,6 +42,10 @@ storie.ToDoItemWrapper, storie;md5304e69416e624e1b520a2afb6e997d17.ToDoItemWrapp
 storie.ToDoItemWrapper, storie, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5304e69416e624e1b520a2afb6e997d17.ToDoItemWrapper
 storie.ToDoItemWrapper;md5304e69416e624e1b520a2afb6e997d17.ToDoItemWrapper
 storie.ToDoItemWrapper;md5304e69416e624e1b520a2afb6e997d17.ToDoItemWrapper
+storie.Holders.StoryViewHolder, storie;md5f1ad9b3db3e33eedef2560e80192d3ec.StoryViewHolder
+storie.Holders.StoryViewHolder, storie, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5f1ad9b3db3e33eedef2560e80192d3ec.StoryViewHolder
+storie.Holders.StoryViewHolder;md5f1ad9b3db3e33eedef2560e80192d3ec.StoryViewHolder
+storie.holders.StoryViewHolder;md5f1ad9b3db3e33eedef2560e80192d3ec.StoryViewHolder
 Xamarin.Auth._MobileServices.AndroidAccountStore/SecretAccount, Microsoft.WindowsAzure.Mobile.Ext;md588920fb9403ed228b036d6919cddd329.AndroidAccountStore_SecretAccount
 Xamarin.Auth._MobileServices.AndroidAccountStore+SecretAccount, Microsoft.WindowsAzure.Mobile.Ext, Version=1.3.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35;md588920fb9403ed228b036d6919cddd329.AndroidAccountStore_SecretAccount
 Xamarin.Auth._MobileServices.AndroidAccountStore.SecretAccount;md588920fb9403ed228b036d6919cddd329.AndroidAccountStore_SecretAccount

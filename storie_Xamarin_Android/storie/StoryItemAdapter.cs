@@ -25,7 +25,7 @@ namespace storie
         public override View GetView(int position, View convertView, ViewGroup parent)
         {
             var row = convertView;
-            var currentItem = this[position];
+            var currentItem = this[position]; 
 
             if (row == null)
             {

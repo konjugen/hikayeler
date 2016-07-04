@@ -2560,7 +2560,7 @@ containing a value of this type.
         public static final int notification_template_icon_bg=0x7f0200a0;
     }
     public static final class id {
-        public static final int LinearLayout1=0x7f07006c;
+        public static final int LinearLayout1=0x7f070069;
         public static final int action0=0x7f070091;
         public static final int action_bar=0x7f07005a;
         public static final int action_bar_activity_content=0x7f070001;
@@ -2629,8 +2629,8 @@ containing a value of this type.
         public static final int line3=0x7f07009a;
         public static final int linearLayout1=0x7f07009e;
         public static final int listMode=0x7f07000b;
-        public static final int listViewCategory=0x7f07006e;
-        public static final int listViewStory=0x7f07006b;
+        public static final int listViewCategory=0x7f07006b;
+        public static final int listViewStory=0x7f07006e;
         public static final int list_item=0x7f070041;
         public static final int media_actions=0x7f070094;
         public static final int menu_refresh=0x7f0700a3;
@@ -2704,14 +2704,14 @@ containing a value of this type.
         public static final int start=0x7f070031;
         public static final int status_bar_latest_event_content=0x7f070093;
         public static final int storieLayout=0x7f0700a1;
-        public static final int storieText=0x7f07006a;
-        public static final int storieTitleText=0x7f070069;
+        public static final int storieText=0x7f07006d;
+        public static final int storieTitleText=0x7f07006c;
         public static final int submit_area=0x7f070065;
         public static final int tabMode=0x7f07000d;
         public static final int text=0x7f07009b;
         public static final int text2=0x7f070099;
         public static final int textSpacerNoButtons=0x7f07004d;
-        public static final int textViewTitle=0x7f07006d;
+        public static final int textViewTitle=0x7f07006a;
         public static final int time=0x7f070097;
         public static final int title=0x7f070043;
         public static final int title_template=0x7f070048;
@@ -2767,9 +2767,9 @@ containing a value of this type.
         public static final int abc_search_dropdown_item_icons_2line=0x7f030016;
         public static final int abc_search_view=0x7f030017;
         public static final int abc_select_dialog_material=0x7f030018;
-        public static final int activity_storie=0x7f030019;
-        public static final int activity_story=0x7f03001a;
-        public static final int activity_to_do=0x7f03001b;
+        public static final int activity_category=0x7f030019;
+        public static final int activity_content=0x7f03001a;
+        public static final int activity_story=0x7f03001b;
         public static final int design_bottom_sheet_dialog=0x7f03001c;
         public static final int design_layout_snackbar=0x7f03001d;
         public static final int design_layout_snackbar_include=0x7f03001e;

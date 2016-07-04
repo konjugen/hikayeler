@@ -11,7 +11,7 @@
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
     </activity>
-    <activity android:label="StorieActivity" android:name="md5304e69416e624e1b520a2afb6e997d17.StorieActivity" />
+    <activity android:label="StorieActivity" android:name="md5304e69416e624e1b520a2afb6e997d17.ContentActivity" />
     <activity android:label="StorieActivity" android:name="md5304e69416e624e1b520a2afb6e997d17.StoryActivity" />
     <activity android:label="Web Authenticator" android:name="md588920fb9403ed228b036d6919cddd329.FormAuthenticatorActivity" />
     <activity android:label="Web Authenticator" android:name="md588920fb9403ed228b036d6919cddd329.WebAuthenticatorActivity" />
