@@ -14,7 +14,7 @@ using Android.Support.V7.Widget;
 
 namespace storie
 {
-    [Activity(Label = "StorieActivity")]
+    [Activity(Icon = "@drawable/launcher_nokta", Label = "@string/app_name")]
     public class StoryActivity : Activity, AdapterView.IOnItemClickListener
     {
         private MobileServiceClient client;

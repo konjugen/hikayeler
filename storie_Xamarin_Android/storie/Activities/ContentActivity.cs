@@ -13,7 +13,7 @@ using Android.Text.Method;
 
 namespace storie
 {
-    [Activity(Label = "StorieActivity")]
+    [Activity(Icon = "@drawable/launcher_nokta", Label = "@string/app_name")]
     public class ContentActivity : Activity
     {
 

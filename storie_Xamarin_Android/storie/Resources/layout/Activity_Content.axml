@@ -2,31 +2,36 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:scrollbars="vertical">
+    android:layout_height="match_parent">
 <!--<TextView
         android:text="@string/checkbox_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/storieTitleText"
         android:gravity="center" 
-        android:padding="3dp"/>-->
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#71BCFA"
-        android:padding="6dip">
-        <TextView
-            android:id="@+id/storieTitleText"
-            android:layout_width="0dip"
+        android:padding="3dp"/>-->       
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="2dp"
-            android:layout_weight="0.12"
-            android:text="@string/checkbox_text"
-            android:textAppearance="?android:attr/textAppearanceLarge" 
-            android:gravity="center"
-            android:textColor="#FFFFFF"/>
-    </LinearLayout>
+            android:background="#71BCFA"
+            android:padding="6dip">
+            <TextView
+                android:id="@+id/storieTitleText"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_weight="0.12"
+                android:text="@string/checkbox_text"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:gravity="center"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+  <ScrollView
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content">
+   <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
     <TextView
         android:text="@string/checkbox_text"
         android:layout_width="match_parent"
@@ -35,7 +40,9 @@
         android:textIsSelectable="true"
         android:layout_marginLeft="5dp"
         android:layout_marginRight="5dp"
-        android:layout_marginTop="1dp"/>
+        android:layout_marginTop="1dp" />   
+   </LinearLayout>
+   </ScrollView>
 <!--slide animasyon
         android:singleLine="true" 
         android:ellipsize="marquee"

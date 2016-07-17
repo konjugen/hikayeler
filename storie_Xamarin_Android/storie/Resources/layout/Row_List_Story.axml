@@ -19,6 +19,6 @@
             android:textSize="20sp"
             android:id="@+id/storieText"
             android:gravity="fill_vertical"
-            android:background="#FFFFFF"/>
+            android:background="#FFFFFF" />
     </LinearLayout>
 </LinearLayout>

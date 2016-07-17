@@ -19,12 +19,13 @@ D:\hikayeler\storie_Xamarin_Android\storie\bin\Debug\Xamarin.Android.Support.v7.
 D:\hikayeler\storie_Xamarin_Android\storie\bin\Debug\Xamarin.Android.Support.v7.MediaRouter.dll
 D:\hikayeler\storie_Xamarin_Android\storie\bin\Debug\Xamarin.Android.Support.v7.RecyclerView.dll
 D:\hikayeler\storie_Xamarin_Android\storie\bin\Debug\Xamarin.Android.Support.Vector.Drawable.dll
+D:\hikayeler\storie_Xamarin_Android\storie\bin\Debug\Xamarin.GooglePlayServices.Ads.dll
+D:\hikayeler\storie_Xamarin_Android\storie\bin\Debug\Xamarin.GooglePlayServices.Basement.dll
 D:\hikayeler\storie_Xamarin_Android\storie\bin\Debug\Microsoft.WindowsAzure.Mobile.xml
 D:\hikayeler\storie_Xamarin_Android\storie\bin\Debug\Microsoft.WindowsAzure.Mobile.Ext.xml
 D:\hikayeler\storie_Xamarin_Android\storie\bin\Debug\Newtonsoft.Json.xml
 D:\hikayeler\storie_Xamarin_Android\storie\bin\Debug\System.Net.Http.Extensions.xml
 D:\hikayeler\storie_Xamarin_Android\storie\bin\Debug\System.Net.Http.Primitives.xml
-D:\hikayeler\storie_Xamarin_Android\storie\obj\Debug\storie.csprojResolveAssemblyReference.cache
 D:\hikayeler\storie_Xamarin_Android\storie\obj\Debug\storie.dll
 D:\hikayeler\storie_Xamarin_Android\storie\obj\Debug\storie.pdb
 D:\hikayeler\storie_Xamarin_Android\storie\obj\Debug\android\bin\storie.storie.apk
@@ -44,6 +45,7 @@ D:\hikayeler\storie_Xamarin_Android\storie\obj\Debug\res\drawable-hdpi\ic_launch
 D:\hikayeler\storie_Xamarin_Android\storie\obj\Debug\res\menu\activity_main.xml
 D:\hikayeler\storie_Xamarin_Android\storie\obj\Debug\res\values-v11\styles.xml
 D:\hikayeler\storie_Xamarin_Android\storie\obj\Debug\res\values-v14\styles.xml
+D:\hikayeler\storie_Xamarin_Android\storie\obj\Debug\res\drawable-hdpi\launcher_nokta.png
 D:\hikayeler\storie_Xamarin_Android\storie\obj\Debug\R.cs.flag
 D:\hikayeler\storie_Xamarin_Android\storie\obj\Debug\uploadflags.txt
 D:\hikayeler\storie_Xamarin_Android\storie\bin\Debug\storie.dll.mdb

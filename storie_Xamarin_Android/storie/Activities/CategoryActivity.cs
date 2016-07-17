@@ -17,7 +17,7 @@ using Android.Support.V7.Widget;
 namespace XamarinTodoQuickStart
 {
     [Activity(MainLauncher = true,
-               Icon = "@drawable/ic_launcher", Label = "@string/app_name",
+               Icon = "@drawable/launcher_nokta", Label = "@string/app_name",
                Theme = "@style/AppTheme")]
 
     public class CategoryActivity : Activity, AdapterView.IOnItemClickListener
