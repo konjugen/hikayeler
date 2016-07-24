@@ -117,6 +117,7 @@ class MonoPackageManager_Resources {
 		"Xamarin.Android.Support.v7.RecyclerView.dll",
 		"Xamarin.Android.Support.Vector.Drawable.dll",
 		"Xamarin.GooglePlayServices.Ads.dll",
+		"Xamarin.GooglePlayServices.Analytics.dll",
 		"Xamarin.GooglePlayServices.Basement.dll",
 		"System.ServiceModel.Internals.dll",
 	};

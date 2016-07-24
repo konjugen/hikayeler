@@ -134,6 +134,10 @@
       <HintPath>..\packages\Xamarin.GooglePlayServices.Ads.29.0.0.2\lib\MonoAndroid41\Xamarin.GooglePlayServices.Ads.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="Xamarin.GooglePlayServices.Analytics, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xamarin.GooglePlayServices.Analytics.29.0.0.2\lib\MonoAndroid41\Xamarin.GooglePlayServices.Analytics.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Xamarin.GooglePlayServices.Basement, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Xamarin.GooglePlayServices.Basement.29.0.0.2\lib\MonoAndroid41\Xamarin.GooglePlayServices.Basement.dll</HintPath>
       <Private>True</Private>
@@ -143,6 +147,7 @@
     <Compile Include="Adapters\StoryAdapter.cs" />
     <Compile Include="DTO\Category.cs" />
     <Compile Include="Adapters\CategoryAdapter.cs" />
+    <Compile Include="GAService.cs" />
     <Compile Include="Holders\CategoryViewHolder.cs" />
     <Compile Include="Constants.cs" />
     <Compile Include="Holders\StoryViewHolder.cs" />
@@ -207,10 +212,6 @@
   </ItemGroup>
   <ItemGroup>
     <XamarinComponentReference Include="googleplayservices-ads">
-      <Visible>False</Visible>
-      <Version>29.0.0.1</Version>
-    </XamarinComponentReference>
-    <XamarinComponentReference Include="googleplayservices-analytics">
       <Visible>False</Visible>
       <Version>29.0.0.1</Version>
     </XamarinComponentReference>

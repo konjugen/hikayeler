@@ -44,6 +44,7 @@ namespace XamarinTodoQuickStart
         protected override async void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
+            GAService.GetGASInstance().Initialize(this);
 
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.Activity_Category);

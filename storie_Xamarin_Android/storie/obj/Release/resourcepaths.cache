@@ -10,6 +10,7 @@
     <AdditionalAndroidResourcePath>C:\Users\AhmetAnıl\AppData\Local\Xamarin\Xamarin.Android.Support.v7.RecyclerView\23.3.0.0\embedded</AdditionalAndroidResourcePath>
     <AdditionalAndroidResourcePath>C:\Users\AhmetAnıl\AppData\Local\Xamarin\Xamarin.Android.Support.Vector.Drawable\23.3.0.0\embedded</AdditionalAndroidResourcePath>
     <AdditionalAndroidResourcePath>C:\Users\AhmetAnıl\AppData\Local\Xamarin\Xamarin.GooglePlayServices.Ads\8.4.0\embedded</AdditionalAndroidResourcePath>
+    <AdditionalAndroidResourcePath>C:\Users\AhmetAnıl\AppData\Local\Xamarin\Xamarin.GooglePlayServices.Analytics\8.4.0\embedded</AdditionalAndroidResourcePath>
     <AdditionalAndroidResourcePath>C:\Users\AhmetAnıl\AppData\Local\Xamarin\Xamarin.GooglePlayServices.Basement\8.4.0\embedded</AdditionalAndroidResourcePath>
   </AdditionalAndroidResourcePaths>
   <AdditionalJavaLibraryReferences>
@@ -24,6 +25,7 @@
     <AdditionalJavaLibraryReference>C:\Users\AhmetAnıl\AppData\Local\Xamarin\Xamarin.Android.Support.v7.RecyclerView\23.3.0.0\embedded\classes.jar</AdditionalJavaLibraryReference>
     <AdditionalJavaLibraryReference>C:\Users\AhmetAnıl\AppData\Local\Xamarin\Xamarin.Android.Support.Vector.Drawable\23.3.0.0\embedded\classes.jar</AdditionalJavaLibraryReference>
     <AdditionalJavaLibraryReference>C:\Users\AhmetAnıl\AppData\Local\Xamarin\Xamarin.GooglePlayServices.Ads\8.4.0\embedded\classes.jar</AdditionalJavaLibraryReference>
+    <AdditionalJavaLibraryReference>C:\Users\AhmetAnıl\AppData\Local\Xamarin\Xamarin.GooglePlayServices.Analytics\8.4.0\embedded\classes.jar</AdditionalJavaLibraryReference>
     <AdditionalJavaLibraryReference>C:\Users\AhmetAnıl\AppData\Local\Xamarin\Xamarin.GooglePlayServices.Basement\8.4.0\embedded\classes.jar</AdditionalJavaLibraryReference>
   </AdditionalJavaLibraryReferences>
   <AdditionalNativeLibraryReferences />

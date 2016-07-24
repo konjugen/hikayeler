@@ -24,6 +24,7 @@ D:\hikayeler\storie_Xamarin_Android\storie\obj\Release\android\assets\Xamarin.An
 D:\hikayeler\storie_Xamarin_Android\storie\obj\Release\android\assets\Xamarin.Android.Support.v7.RecyclerView.dll
 D:\hikayeler\storie_Xamarin_Android\storie\obj\Release\android\assets\Xamarin.Android.Support.Vector.Drawable.dll
 D:\hikayeler\storie_Xamarin_Android\storie\obj\Release\android\assets\Xamarin.GooglePlayServices.Ads.dll
+D:\hikayeler\storie_Xamarin_Android\storie\obj\Release\android\assets\Xamarin.GooglePlayServices.Analytics.dll
 D:\hikayeler\storie_Xamarin_Android\storie\obj\Release\android\assets\Xamarin.GooglePlayServices.Basement.dll
 D:\hikayeler\storie_Xamarin_Android\storie\obj\Release\android\assets\mscorlib.dll
 D:\hikayeler\storie_Xamarin_Android\storie\obj\Release\android\assets\System.ServiceModel.Internals.dll

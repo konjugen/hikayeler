@@ -33,6 +33,7 @@ namespace storie
         protected override async void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
+            GAService.GetGASInstance().Initialize(this);
 
             selectedItem = Intent.Extras.GetString("selectedCategoryId");
            

@@ -310,6 +310,10 @@ Google.Ads.Mediation.IMediationInterstitialListenerImplementor, Xamarin.GooglePl
 Google.Ads.Mediation.IMediationInterstitialListenerImplementor, Xamarin.GooglePlayServices.Ads, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.google.ads.mediation.MediationInterstitialListenerImplementor
 Google.Ads.Mediation.IMediationInterstitialListenerImplementor;mono.com.google.ads.mediation.MediationInterstitialListenerImplementor
 mono.com.google.ads.mediation.MediationInterstitialListenerImplementor;mono.com.google.ads.mediation.MediationInterstitialListenerImplementor
+Android.Gms.Tagmanager.IContainerHolderContainerAvailableListenerImplementor, Xamarin.GooglePlayServices.Analytics;mono.com.google.android.gms.tagmanager.ContainerHolder_ContainerAvailableListenerImplementor
+Android.Gms.Tagmanager.IContainerHolderContainerAvailableListenerImplementor, Xamarin.GooglePlayServices.Analytics, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.google.android.gms.tagmanager.ContainerHolder_ContainerAvailableListenerImplementor
+Android.Gms.Tagmanager.IContainerHolderContainerAvailableListenerImplementor;mono.com.google.android.gms.tagmanager.ContainerHolder_ContainerAvailableListenerImplementor
+mono.com.google.android.gms.tagmanager.ContainerHolder_ContainerAvailableListenerImplementor;mono.com.google.android.gms.tagmanager.ContainerHolder_ContainerAvailableListenerImplementor
 Android.Gms.Common.Apis.ResultCallback`1, Xamarin.GooglePlayServices.Basement;md531f8cc8d4d39b2fa02686ee0eb368905.ResultCallback_1
 Android.Gms.Common.Apis.ResultCallback`1, Xamarin.GooglePlayServices.Basement, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md531f8cc8d4d39b2fa02686ee0eb368905.ResultCallback_1
 Android.Gms.Common.Apis.ResultCallback`1;md531f8cc8d4d39b2fa02686ee0eb368905.ResultCallback_1

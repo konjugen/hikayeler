@@ -27,6 +27,7 @@ namespace storie
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
+            GAService.GetGASInstance().Initialize(this);
 
             selectedStorieContent = Intent.Extras.GetString("selectedStoryContent");
             selectedStorieId = Intent.Extras.GetString("selectedStorieId");
