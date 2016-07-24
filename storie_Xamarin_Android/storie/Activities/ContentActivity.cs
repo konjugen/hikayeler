@@ -10,6 +10,7 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.Text.Method;
+using Android.Gms.Ads;
 
 namespace storie
 {
@@ -19,6 +20,10 @@ namespace storie
 
         public string selectedStorieContent, selectedStorieTitle, selectedStorieId;
         public TextView storieContentText, storieTitleText;
+
+        protected AdView mAdView;
+        protected InterstitialAd mInterstitialAd;
+        protected Button mLoadInterstitialButton;
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
@@ -37,6 +42,41 @@ namespace storie
 
             storieContentText.MovementMethod = new ScrollingMovementMethod();
 
+            mAdView = FindViewById<AdView>(Resource.Id.adViewContent);
+            var adRequest = new AdRequest.Builder().Build();
+            mAdView.LoadAd(adRequest);
+
         }
+
+        #region
+        protected override void OnPause()
+        {
+            if (mAdView != null)
+            {
+                mAdView.Pause();
+            }
+            base.OnPause();
+        }
+
+        protected override void OnResume()
+        {
+            base.OnResume();
+            if (mAdView != null)
+            {
+                mAdView.Resume();
+            }
+        }
+
+        protected override void OnDestroy()
+        {
+            if (mAdView != null)
+            {
+                mAdView.Destroy();
+            }
+            base.OnDestroy();
+        }
+
+        #endregion
+
     }
 }

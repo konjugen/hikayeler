@@ -13,6 +13,7 @@ using System.Collections.Generic;
 using storie;
 using Android.Content;
 using Android.Support.V7.Widget;
+using Android.Gms.Ads;
 
 namespace XamarinTodoQuickStart
 {
@@ -33,6 +34,9 @@ namespace XamarinTodoQuickStart
         // Adapter to sync the items list with the view
         private RecyclerView listViewCategory;
 
+        protected AdView mAdView;
+        protected InterstitialAd mInterstitialAd;
+
         //private EditText textNewTodo; // EditText containing the "New Todo" text
         //private ProgressBar progressBar; // Progress spinner to use for table operations  
 
@@ -43,6 +47,10 @@ namespace XamarinTodoQuickStart
 
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.Activity_Category);
+
+            mAdView = FindViewById<AdView>(Resource.Id.adView);
+            var adRequest = new AdRequest.Builder().Build();
+            mAdView.LoadAd(adRequest);
 
             //adapter = new CategoryItemAdapter(this, Resource.Layout.Row_List_Category);
 
@@ -106,11 +114,42 @@ namespace XamarinTodoQuickStart
             }
         }
 
+        #region
+
+        protected override void OnPause()
+        {
+            if (mAdView != null)
+            {
+                mAdView.Pause();
+            }
+            base.OnPause();
+        }
+
+        protected override void OnResume()
+        {
+            base.OnResume();
+            if (mAdView != null)
+            {
+                mAdView.Resume();
+            }
+        }
+
+        protected override void OnDestroy()
+        {
+            if (mAdView != null)
+            {
+                mAdView.Destroy();
+            }
+            base.OnDestroy();
+        }
+
+        #endregion
+
         public void OnItemClick(AdapterView parent, View view, int position, long id)
         {
             var intent = new Intent(this, typeof(StoryActivity));
             intent.PutExtra("selectedItemId", Convert.ToInt32(id));
-            StartActivity(intent);
+            StartActivity(intent);            
         }
 
         // Initializes the activity menu

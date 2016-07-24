@@ -11,6 +11,7 @@ using storie;
 using XamarinTodoQuickStart;
 using Android.Content;
 using Android.Support.V7.Widget;
+using Android.Gms.Ads;
 
 namespace storie
 {
@@ -24,6 +25,10 @@ namespace storie
 
         private StoryAdapter adapter;
         private RecyclerView listViewStory;
+
+        protected AdView mAdView;
+        protected InterstitialAd mInterstitialAd;
+        protected Button mLoadInterstitialButton;
 
         protected override async void OnCreate(Bundle bundle)
         {
@@ -41,6 +46,10 @@ namespace storie
 
             listViewStory.SetAdapter(adapter);
 
+
+            mAdView = FindViewById<AdView>(Resource.Id.adViewStory);
+            var adRequest = new AdRequest.Builder().Build();
+            mAdView.LoadAd(adRequest);
 
             //adapter = new StoryItemAdapter(this, Resource.Layout.Row_List_Story);
             //listViewStory = FindViewById<ListView>(Resource.Id.listViewStory);
@@ -111,6 +120,37 @@ namespace storie
             StartActivity(intent);
         }
 
+        #region
+
+        protected override void OnPause()
+        {
+            if (mAdView != null)
+            {
+                mAdView.Pause();
+            }
+            base.OnPause();
+        }
+
+        protected override void OnResume()
+        {
+            base.OnResume();
+            if (mAdView != null)
+            {
+                mAdView.Resume();
+            }
+        }
+
+        protected override void OnDestroy()
+        {
+            if (mAdView != null)
+            {
+                mAdView.Destroy();
+            }
+            base.OnDestroy();
+        }
+        #endregion
+
+
         //[Java.Interop.Export()]
         //public async void AddItem(View view)
         //{
@@ -146,4 +186,5 @@ namespace storie
         //    addStorieText.Text = "";
         //}
     }
+
 }

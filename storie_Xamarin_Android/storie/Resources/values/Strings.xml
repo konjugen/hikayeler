@@ -6,5 +6,8 @@
     <string name="mobile_services">Kategoriler</string>
     <string name="menu_refresh">Yenile</string>
     <string name="checkbox_text">Item Text</string>
-    <string name="banner_ad_unit_id">ca-app-pub-2736926536851092~4263107561</string>
+    <string name="category_banner_ad_unit_id">ca-app-pub-2736926536851092/2085893567</string>
+    <string name="story_banner_ad_unit_id">ca-app-pub-2736926536851092/5818089163</string>
+    <string name="content_banner_ad_unit_id">ca-app-pub-2736926536851092/4341355964</string>
+    <string name="interstitial_ad_unit_id">ca-app-pub-2736926536851092~4263107561</string>
 </resources>
